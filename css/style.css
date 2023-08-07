@@ -1,0 +1,68 @@
+.navbar {
+    background-color: rgb(68, 6, 68);
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-list li {
+    margin: 0 15px;
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-list li a:hover {
+    color: #FFA500; /* Change the color on hover */
+}
+.header{
+    width: 100;
+    height: calc(100vh - 100px);
+    background-color: rgb(244, 121, 77);
+}
+.explore-btn{
+    display: inline-block;
+    width: 100px;
+    padding: 10px 0;
+    margin: 50px;
+    background-color: rgb(39, 5, 103);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.first-section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 15% 0;
+}
+.first-article{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(105, 105, 105);
+    float: left;
+    margin-left: 15%;
+}
+.second-article{
+width: 35%;
+height: 100%;
+background-color: chocolate;
+float: right;
+margin-right: 15%;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: antiquewhite;
+}
